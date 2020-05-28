@@ -1,0 +1,40 @@
+<script>
+function openTab(url){
+	chrome.tabs.create({url: url});
+}
+
+function searchLink(txt)
+{
+	chrome.bookmarks.search(txt,function(bookmarkTreeNodes) {
+		deleteNode('myDiv');
+		var table = document.createElement('table');
+		for(var i = 0 ; i < bookmarkTreeNodes.length ; i++){
+			var tr = document.createElement('tr');
+			var td = document.createElement('td');
+			var a = document.createElement('a');
+			a.href = "javascript:openTab('"+bookmarkTreeNodes[i].url+"');"
+			a.innerHTML = bookmarkTreeNodes[i].title;
+			td.appendChild(a);
+			tr.appendChild(td);
+			table.appendChild(tr);
+		}
+		document.getElementById('myDiv').appendChild(table);
+		
+	});
+}
+
+function deleteNode(elementId){
+  var object=document.getElementById(elementId);	
+  while( object.hasChildNodes() ) { object.removeChild( object.lastChild ); }
+}
+
+
+</script>
+
+
+<html>
+<body>
+	<p>Search : <input type='text' onkeyup='javascript:searchLink(this.value);'></p>
+	<div id="myDiv"></div>
+</body>
+</html>

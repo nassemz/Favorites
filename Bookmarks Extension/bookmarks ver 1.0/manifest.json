@@ -1,0 +1,15 @@
+{
+  "name": "Nassem Zaher Bookmarks",
+  "version": "1.0",
+  "update_url": "http://nissimzo.myvnc.com/Fav/updates2.xml",
+  "description": "Bookmarks.",
+  "browser_action": {
+    "default_icon": "icon.png",
+	"default_title": "Nassem Zaher Extension",
+    "popup": "popup.html"
+  },
+  "permissions": [
+    "tabs", "bookmarks", "http://nissimzo.myvnc.com/*"
+  ]
+  
+}

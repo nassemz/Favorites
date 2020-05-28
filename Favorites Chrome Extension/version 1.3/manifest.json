@@ -1,0 +1,15 @@
+{
+  "name": "Nassem Zaher Extension",
+  "version": "1.3",
+  "update_url": "http://nissimzo.myvnc.com/Fav/updates.xml",
+  "description": "Save Favorite links.",
+  "browser_action": {
+    "default_icon": "icon.png",
+	"default_title": "Nassem Zaher Extension",
+    "popup": "popup.html"
+  },
+  "permissions": [
+    "tabs", "http://nissimzo.myvnc.com/*"
+  ]
+  
+}

@@ -1,0 +1,7 @@
+D:\Projects\Project - Favorites - C# Source Code Nassem Zaher\Favorites\Favorites\obj\Debug\ResolveAssemblyReference.cache
+D:\Projects\Project - Favorites - C# Source Code Nassem Zaher\Favorites\Favorites\bin\Favorites.dll
+D:\Projects\Project - Favorites - C# Source Code Nassem Zaher\Favorites\Favorites\bin\Favorites.pdb
+D:\Projects\Project - Favorites - C# Source Code Nassem Zaher\Favorites\Favorites\obj\Debug\Favorites.dll
+D:\Projects\Project - Favorites - C# Source Code Nassem Zaher\Favorites\Favorites\obj\Debug\Favorites.pdb
+D:\Projects\Project - Favorites - C# Source Code Nassem Zaher\Favorites\Favorites\bin\System.Data.SQLite.dll
+D:\Projects\Project - Favorites - C# Source Code Nassem Zaher\Favorites\Favorites\bin\System.Data.SQLite.xml
